@@ -340,7 +340,3 @@ console.log(toTitleCase2("beBieNDO CervEzA!"));
 
 */
 
-const libreria = {
-  libros: 'juan sal gab', 'harry potter',
-  revistas: 
-}

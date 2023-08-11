@@ -3,8 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tareas y Ejercicios</title>
-    <script src="/TareasyEjercicios.js"></script>
+    <title>Alterna</title>
+    <script src="script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <form>
+      <div>
+        <label for="CardName">Card Name:</label>
+        <input
+          type="text"
+          id="CardName"
+          name="CardName"
+          placeholder="Ex: Smothering Tithe"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="mana-cost">Mana Cost:</label>
+        <input
+          type="number"
+          id="CardName"
+          name="CardName"
+          placeholder="Ex: 5"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="Set">Set:</label>
+        <input
+          type="text"
+          id="set"
+          name="set"
+          placeholder="Ex: Commander Master"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" placeholder="Example: 5" />
+      </div>
+
+      <br />
+
+      <div>
+        <p>Colors:</p>
+        <input type="checkbox" id="Black" name="Black" value="Black" />
+        <label for="Black">Black</label><br />
+        <input type="checkbox" id="White" name="White" value="White" />
+        <label for="White">White</label><br />
+        <input type="checkbox" id="Red" name="Red" value="Red" />
+        <label for="Red">Red</label><br />
+        <input type="checkbox" id="Green" name="Green" value="Green" />
+        <label for="Green">Green</label><br />
+        <input type="checkbox" id="Blue" name="Blue" value="Blue" />
+        <label for="Blue">Blue</label><br />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="card-type">Card Type:</label>
+        <select name="card-type" id="card-type">
+          <option value="creature">Creature</option>
+          <option value="Instant">Instant</option>
+          <option value="Sorcery">Sorcery</option>
+          <option value="Enchantment">Enchantment</option>
+          <option value="Land">Land</option>
+          <option value="Artifact">Artifact</option>
+          <option value="Planeswalker">Planeswalker</option>
+        </select>
+      </div>
+      <div></div>
+    </form>
+  </body>
 </html>
